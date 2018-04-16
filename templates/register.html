@@ -1,0 +1,51 @@
+{% extends 'base.html' %} {% block body %}
+<div class="jumbotron bg1">
+    <h1 class="display-4 text-center">Create an account and see the world...</h1>
+    <div class="container">
+        <div class="col-md-6 offset-3 p-2 dancemonkey">
+            <form>
+                <div class="row p-2">
+                    <div class="col">Email address</div>
+                </div>
+                <div class="row p-2">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Enter email">
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col">Password</div>
+                </div>
+                <div class="row p-2">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Password">
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col">Confirm Password</div>
+                </div>
+                <div class="row p-2">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Password">
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <input type="checkbox">
+                            </div>
+                            <div class="col">Remember Me</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-2">
+                    <div class="col">
+                        <a class="btn btn-primary" href="#" role="button">Register</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

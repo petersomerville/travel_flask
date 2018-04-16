@@ -1,0 +1,39 @@
+{% extends 'base.html' %} {% block body %}
+<div class="jumbotron bg1">
+    <h1 class="display-4 text-center">From fuel efficient to sporty...</h1>
+    <div class="container">
+
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active p-2 dancemonkey" id="planes" role="tabpanel" aria-labelledby="planes-tab">
+                <form>
+                    <div class="row p-2">
+                        <div class="col">Departure Date</div>
+                        <div class="col">Return Date</div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col">
+                            <input type="date" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <input type="date" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Rental City">
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col">
+                            <a class="btn btn-primary" href="#" role="button">Find Your Ride</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+{% endblock %}

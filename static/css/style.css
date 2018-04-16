@@ -1,0 +1,15 @@
+h1 {
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-bottom: 50px;
+}
+
+.bgindex {
+    background-image: url("https://images.pexels.com/photos/297755/pexels-photo-297755.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.dancemonkey {
+    background: white;
+}

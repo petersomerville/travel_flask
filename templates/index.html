@@ -1,5 +1,138 @@
-{% extends 'base.html' %}
+{% extends 'base.html' %} {% block body %}
+<div class="jumbotron bgindex">
+    <h1 class="display-4 text-center">Where do you want to go?</h1>
+    <div class="container">
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="planes-tab" data-toggle="tab" href="#planes" role="tab" aria-controls="planes" aria-selected="true">Planes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="trains-tab" data-toggle="tab" href="#trains" role="tab" aria-controls="trains" aria-selected="false">Trains</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="automobiles-tab" data-toggle="tab" href="#automobiles" role="tab" aria-controls="automobiles" aria-selected="false">Automobiles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="boats-tab" data-toggle="tab" href="#boats" role="tab" aria-controls="boats" aria-selected="false">Boats</a>
+            </li>
+        </ul>
+        <div class="tab-content dancemonkey" id="myTabContent">
+            <div class="tab-pane fade show active p-2" id="planes" role="tabpanel" aria-labelledby="planes-tab">
+                <form>
+                    <div class="row p-2">
+                        <div class="col">Departure Date</div>
+                        <div class="col">Return Date</div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col">
+                            <input type="date" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <input type="date" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Departure Airport">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Destination Airport">
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col">
+                            <a class="btn btn-primary" href="#" role="button">Find Flights</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="tab-pane fade p-5" id="trains" role="tabpanel" aria-labelledby="trains-tab">
+                <form>
+                    <div class="row p-2">
+                        <div class="col">Departure Date</div>
+                        <div class="col">Return Date</div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col">
+                            <input type="date" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <input type="date" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Departure Station">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Destination Station">
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col">
+                            <a class="btn btn-primary" href="#" role="button">Find Trains</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="tab-pane fade p-5" id="automobiles" role="tabpanel" aria-labelledby="automobiles-tab">
+                <form>
+                    <div class="row p-2">
+                        <div class="col">Departure Date</div>
+                        <div class="col">Return Date</div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col">
+                            <input type="date" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <input type="date" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Rental City">
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col">
+                            <a class="btn btn-primary" href="#" role="button">Find Cars</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="tab-pane fade p-5" id="boats" role="tabpanel" aria-labelledby="boats-tab">
+                <form>
+                    <div class="row p-2">
+                        <div class="col">Departure Date</div>
+                        <div class="col">Return Date</div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col">
+                            <input type="date" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <input type="date" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Departure Port">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Destination Port">
+                        </div>
+                    </div>
+                    <div class="row p-2">
+                        <div class="col">
+                            <a class="btn btn-primary" href="#" role="button">Find Boats</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
 
-{% block body %}
-<h1>Hello World</h1>
+        </div>
+    </div>
+</div>
+
 {% endblock %}

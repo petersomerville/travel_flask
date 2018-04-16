@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hello World</title>
+    <title>HelloWorld Travel</title>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,11 +15,9 @@
   </head>
   
   <body>
+    {% include 'navbar.html' %}
 
-
-    <div class="container">
-      {% block body %} {% endblock %}
-    </div>
+    {% block body %} {% endblock %}
 
     <!-- Required JavaScript Files -->
     <script src="{{url_for('static', filename='lib/jquery-3.2.1.min.js')}}"></script>
