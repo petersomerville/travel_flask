@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello World</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{url_for('static', filename='lib/bootstrap.min.css')}}">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+
+  </head>
+  
+  <body>
+
+
+    <div class="container">
+      {% block body %} {% endblock %}
+    </div>
+
+    <!-- Required JavaScript Files -->
+    <script src="{{url_for('static', filename='lib/jquery-3.2.1.min.js')}}"></script>
+    <script src="{{url_for('static', filename='lib/popper.min.js')}}"></script>
+    <script src="{{url_for('static', filename='lib/bootstrap.min.js')}}"></script>
+
+  </body>
+</html>
