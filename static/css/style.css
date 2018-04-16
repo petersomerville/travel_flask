@@ -4,12 +4,67 @@ h1 {
     margin-bottom: 50px;
 }
 
-.bgindex {
-    background-image: url("https://images.pexels.com/photos/297755/pexels-photo-297755.jpeg");
-    background-size: cover;
-    background-position: center;
+.tab-item {
+    background-color: gray;
+    color: black;
+    margin: 5px;
+}
+
+.tab-item  a {
+    color: white;
 }
 
 .dancemonkey {
     background: white;
+    box-shadow: 5px 5px 5px;
+
+}
+
+.bgindex {
+    background-image: url("https://imagesvc.timeincapp.com/v3/mm/image?url=http%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1496699939%2Fhot-air-ballon-close-up-nevsehir-cappadocia-turkey-HOTAIR0605.jpg%3Fitok%3DE8TuGvTX&w=1600&q=70");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bgplane {
+    background-image: url("http://www.wright-brothers.org/Information_Desk/Just_the_Facts/Kites_&_Gliders/Kites_&_Glider_images/1911-Wright-Glider-in-flight-closeup.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bgtrain {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Berlin_Hauptbahnhof_oben_RB%2BS-Bahn.jpg/1600px-Berlin_Hauptbahnhof_oben_RB%2BS-Bahn.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bgautomobile {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0c/1928_Model_A_Ford.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bgboat {
+    background-image: url("http://mrbelloblog.com/wp-content/uploads/2017/09/ben-hur-slave.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bgregister {
+    background-image: url("https://1.bp.blogspot.com/-E2ROztc9vC8/V68uof9C9rI/AAAAAAAAQd8/Od9reK9l77MEeWKKyWTIaKxMQvQ6khHAwCLcB/s1600/Planes%2BTrains%2BAnd%2BAutomobiles%2B1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bglogin {
+    background-image: url("https://1.bp.blogspot.com/-E2ROztc9vC8/V68uof9C9rI/AAAAAAAAQd8/Od9reK9l77MEeWKKyWTIaKxMQvQ6khHAwCLcB/s1600/Planes%2BTrains%2BAnd%2BAutomobiles%2B1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
